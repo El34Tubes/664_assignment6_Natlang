@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>NatLang Utility Chat</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>NatLang Utility Chat</h1>
+        <div class="session">
+          <label>Session ID</label>
+          <input id="sessionId" type="text" />
+          <label>Account #</label>
+          <input id="accountNumber" type="text" placeholder="ACCT-MERCURY, ACCT-BOWIE, ..."/>
+        </div>
+      </header>
+      <main id="log"></main>
+      <footer>
+        <input id="textInput" type="text" placeholder="Type your message..."/>
+        <button id="sendBtn">Send</button>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

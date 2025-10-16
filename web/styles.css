@@ -1,0 +1,18 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:#0f172a;color:#e2e8f0}
+.app{max-width:900px;margin:0 auto;display:flex;flex-direction:column;min-height:100vh}
+header{padding:16px 20px;background:#111827;border-bottom:1px solid #1f2937;display:flex;align-items:center;justify-content:space-between}
+h1{margin:0;font-size:20px}
+.session{display:flex;gap:8px;align-items:center}
+.session input{background:#0b1220;border:1px solid #1f2937;color:#e2e8f0;border-radius:8px;padding:8px 10px;min-width:180px}
+main#log{flex:1;padding:20px;display:flex;flex-direction:column;gap:10px}
+.msg{padding:12px 14px;border-radius:12px;max-width:75%}
+.msg.user{background:#1f2937;align-self:flex-end}
+.msg.bot{background:#0b1220;border:1px solid #1f2937;align-self:flex-start}
+.meta{font-size:12px;opacity:.75;margin-top:6px;word-break:break-word}
+.buttons{margin-top:8px;display:flex;gap:8px}
+.btn{background:#2563eb;border:none;color:white;padding:8px 12px;border-radius:8px;cursor:pointer}
+.btn.secondary{background:#374151}
+footer{padding:12px 20px;border-top:1px solid #1f2937;background:#111827;display:flex;gap:8px}
+footer input{flex:1;background:#0b1220;border:1px solid #1f2937;color:#e2e8f0;border-radius:10px;padding:12px}
+footer button{background:#2563eb;border:none;color:white;padding:12px 16px;border-radius:10px;cursor:pointer}
+footer button:hover{filter:brightness(1.1)}

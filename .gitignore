@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.vscode/
+# virtualenvs
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# local env
+.env
+
+# logs
+logs/
